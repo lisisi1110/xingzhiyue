@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf_8"/>
+		<title>行之悦</title>
+		<style>
+		*{padding:0;
+		  margin:0;}
+		.a{background-color:#8e8e8e;
+		   width:1200px;
+		   height:64px;
+		   margin:0 auto;
+		   position:relative;}
+		li{list-style-type:none;
+		   width:130px;
+		   height:84px;
+		   text-align:center;
+		   line-height:100px;
+		   color:white;}
+		ul{position:absolute;
+		   right:60px;
+		   top:-20px;}
+		.a>ul ul{display:none;}
+		.a>ul>li{float:right;}
+		.clear:after{
+                         content:'';
+                         display:block;
+                         height:0;
+                         clear:both;}
+        .a>ul>li:hover ul{display:block;
+                          background-color:#d0d0d0;}
+        li:hover{color:#01b468;
+                 background-color:#d0d0d0;}
+        .aa{position:absolute;
+            right:130px;
+            top:80px;}
+        .aaa{position:absolute;
+             right:520px;
+             top:80px;}
+        .b{width:1200px;
+           margin:0 auto;
+           position:relative;}
+    	.bb{width:1200px;
+    	    margin:0 auto;
+    	    height:55px;
+    	    background-color:black;
+    	    opacity:0.3;
+    	    position:absolute;
+    	    bottom:5px;}
+    	input{margin-top:10px;
+    		  margin-left:500px;
+    	      line-height:28px;}
+    	.c{width:1200px;
+    	   height:120px;
+    	   margin:0 auto;}
+    	h2{font-size:32px;
+    	   color:#7b7b7b;
+    	   line-height:70px;}
+    	.cc{font-size:18px;
+    	  color:#bebebe;
+    	  line-height:40px;}
+    	.d{width:1200px;
+    	   margin:0 auto;
+    	   position:relative;}
+    	.dd{width:790px;
+    	    height:80px;
+    	    background-color:black;
+    	    opacity:0.4;
+    	    position:absolute;
+    	    bottom:5px;}
+    	.ddd{color:white;
+    	     font-size:28px;
+    	     line-height:80px;
+    	     text-align:center;}
+    	.dddd{float:right;
+    	      width:382px;
+    	      height:457px;
+    	      border:1.5px solid #bebebe;}
+    	.ddddd{color:#adadad;
+    	       font-size:22px;
+    	       line-height:70px;
+    	       text-indent:40px;}
+    	.dddddd{color:#5b5b5b;
+    	        font-size:22px;
+    	        line-height:20px;
+    	        text-indent:40px;}
+    	.ddddddd{color:#adadad;
+    	         font-size:12px;
+    	         line-height:140px;
+    	         text-indent:50px;}
+    	.e{width:1200px;
+    	   height:457px;
+    	   margin:0 auto;}
+    	.ee,.eee{float:left;
+    	    width:382px;
+    	    height:457px;
+    	    border:1.5px solid #bebebe;
+    	    margin-top:35px;
+    	    margin-bottom:60px;}
+    	.ee{margin-right:22px;}
+    	.f{width:1200px;
+    	   margin:0 auto;}
+    	.ff{position:relative;
+    	    margin-bottom:180px;
+    	    margin-bottom:60px;}
+    	.fff{position:absolute;
+    	     bottom:-1280px;
+    	     right:350px;}
+    	.ffff{color:white;
+    	      font-size:24px;}
+    	.g{height:250px;
+    	   background-color:#4f4f4f;}
+    	.gg{color:white;
+    	    font-size:16px;
+    	    text-align:center;
+    	    line-height:200px;}
+    	.ggg{color:white;
+    	     font-size:12px;
+    	     text-align:center;
+    	     line-height:50px;}
+    	.bbb{position:absolute;
+    	     bottom:24px;
+    	     right:500px;}
+		</style>
+	</head>
+	<body>
+		<div class="a">
+			<img src="images/1.png"/>
+			<ul>
+				<li>关于我们</li>
+				<li>悦行社区
+					<ul class="aa">
+						<li>旅行资讯</li>
+						<li>图说故事</li>
+						<li>南极船票</li>
+						<li>北极之旅</li>
+					</ul>
+				</li>
+				<li>私人定制</li>
+				<li>度假酒店</li>
+				<li>主题旅行
+					<ul class="aaa">
+						<li>主题线路</li>
+						<li>主题百科</li>
+						<li>往期回顾</li>
+					</ul>
+				</li>
+				<li>首页</li>
+			</ul>
+		</div>
+		<div class="b">
+			<div class="">
+			<img src="images/2.jpg"/>
+			</div>
+			<div class="bb">
+				<input type="text" value="输入您想查找的内容" name="search "/>
+			</div>
+			<div class="bbb">
+				<input type="submit" value="搜索" name="sub"/>
+			</div>
+		</div>
+		<div class="c">
+			<h2>热门线路</h2>
+			<p class="cc">好线路那么多·我们为您精选·行之悦会越来越懂你</p>
+		</div>
+		<div class="d">
+			<img src="images/4.jpg"/>
+			<div class="dd">
+				<p class="ddd">破冰北极点·五十年胜利号远航探险之旅</p>
+			</div>
+			<div class="dddd">
+				<img src="images/10.jpg"/>
+				<p class="ddddd">主题旅行</p>
+				<p class="dddddd">沙漠越野·穿越巴丹吉林之旅</p>
+				<p class="ddddddd">出行日期：2020年06月28日-2020年07月04日</p>
+			</div>
+		</div>
+		<div class="e">
+			<div class="ee">
+				<img src="images/7.jpg">
+				<p class="ddddd">主题旅行</p>
+				<P class="dddddd">藏西秘境·阿里大环线越野穿越之旅</P>
+				<p class="ddddddd">出行日期：2020年10月08日-2020年10月23日</p>
+			</div>
+			<div class="ee">
+				<img src="images/6.jpg">
+				<p class="ddddd">主题旅行</p>
+				<P class="dddddd">疆行万里·南北疆自驾穿越之旅</P>
+				<p class="ddddddd">2020年6月20日-2020年7月06日</p>
+			</div>
+			<div class="eee">
+				<img src="images/9.jpg">
+				<p class="ddddd">主题旅行</p>
+				<P class="dddddd">疆行万里·南北疆深度穿越之旅</P>
+				<p class="ddddddd">出行日期：2020年06月20日-2020年07月06日</p>
+			</div>
+		</div>
+		<div class="f">
+			<div class="ff">
+				<img src="images/12.jpg"/>
+			</div>
+			<div class="fff">
+				<p class="ffff">去非洲开开眼界想看角马大迁徙，是去肯尼亚看好，还是去坦桑尼亚看?</p>
+			</div>
+		</div>
+		<div class="g">
+			<p class="gg">南极旅行报名处|主题旅行报名处|满意度调查|加入我们|帮助中心</p>
+			<P class="ggg">版权所有2015成都行之悦国际旅行社有限公司All Rights Reserved 蜀ICP16018295号-1</P>
+		</div>
+	</body>
+</html>
+
